@@ -1,2 +1,55 @@
 # Syntaxonomy
-A Collection Of Web Languages.
+The word Syntaxonomy is to bridge a collection (taxonomy) of languages (syntax). In this instance this website is the cumulative assortment of useful links and articles I have found over 20+ years of Web Development. Consider these the must-reads, the insightful philosophies, and the fundamentals. All have been stacked into categories based upon the order you might learn about them through your career.
+
+## Table of Contents
+
+### Internet
+  - History
+  - WWW
+  - Compatible
+  - Hosting
+  - Research
+### Software
+  - Install
+  - DevTools
+  - Terminal
+  - Versioning
+### Assets
+  - Text
+  - Syntax
+  - Other
+### Markup
+  - Content
+  - Markdown
+  - Markup
+  - Metadata
+  - Preprocessor
+  - Data
+### Design
+  - Agile
+  - Basics
+  - Layout
+  - Inclusive
+  - Systems
+### StyleSheets
+  - Overview
+  - Stylesheet
+  - Architecture
+  - Preprocessor
+  - Libraries
+### Client-Side
+  - Scripting
+  - Jam-Stack
+  - Frameworks
+  - Preprocessor
+  - Tooling
+  - CSS-In-JS
+### Server-Side
+  - Scripting
+  - Database
+### Applications
+  - Desktop
+  - Mobile
+### Portfolio
+  - Community
+  - Employment
