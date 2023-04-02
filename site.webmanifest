@@ -1,0 +1,21 @@
+{
+	"short_name": "Syntaxonomy",
+	"name": "Syntaxonomy",
+	"start_url": "https://syntaxonomy.com",
+	"description": "There are many syntax languages involved in the creation of a website. This collection will aid your learning pathway, guiding you through the layers of the web.",
+	"icons": [
+		{
+			"src": "images/droidx192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "images/droidx512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#ebe7df",
+	"background_color": "#ffffff",
+	"display": "standalone"
+}
