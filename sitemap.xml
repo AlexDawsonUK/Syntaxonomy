@@ -4,8 +4,4 @@
 		<loc>https://syntaxonomy.com/</loc>
 		<changefreq>weekly</changefreq>
 	</url>
-	<url>
-		<loc>https://syntaxonomy.com/error.html</loc>
-		<changefreq>weekly</changefreq>
-	</url>
 </urlset>
