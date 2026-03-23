@@ -16,7 +16,7 @@
 @media screen {
 	::selection { background-color: #000000; color: #ffffff; }
 	.stage, .hide { height: 1px; left: -1000px; overflow: hidden; top: -1px; width: 1px; }
-	.stage:target, .t_show:target { height: auto; left: 1em; overflow: auto; top: 1em; width: calc(100% - 2em); }
+	.stage:target { height: auto; left: 1em; overflow: auto; top: 1em; width: calc(100% - 2em); }
 	.anchors, .build, .copyright, .hgroup {
 		align-items: center; }
 	.block, .url {
@@ -36,7 +36,7 @@
 		padding-left: 15%;
 		padding-right: 15%;
 		max-width: calc(70% - 4em); }
-	.t_show:target {
+	.t_show {
 		bottom: 6em;
 		top: auto; }
 	.button {
@@ -126,9 +126,9 @@
 		padding-left: 1em; }
 	.subheading {
 		padding-top: 1em; }
-	.header, .footer, .stage, .t_show:target {
+	.header, .footer, .stage, .t_show {
 		position: absolute; }
-	.header, .stage, .t_show:target {
+	.header, .stage, .t_show {
 		text-align: center; }
 	.anchors, .copy {
 		text-align: left; }
@@ -142,6 +142,8 @@
 		top: 1em; }
 	.txt {
 		width: 100%; }
+	.t_show {
+		width: calc(100% - 10px); }
 }
 @media screen and (max-width: 1400px) {
 	.anchors, .hgroup { flex-basis: 50%; }
@@ -157,9 +159,9 @@
 }
 @media screen and (max-width: 1000px) {
 	.logo { height: 8em; margin-top: 7em; width: 8em; }
-	.t_show:target { bottom: 8em; }
+	.t_show { bottom: 8em; }
 	.heading { font-size: 6em; }
-	.error-head{ font-size: 3em; }
+	.error-head { font-size: 3em; }
 	.error-sub, .subtitle { font-size: 1.5em; }
 	.button, .context { font-size: 1em; }
 	.scope, .scoped { flex-basis: 100%; }
@@ -175,7 +177,7 @@
 }
 @media screen and (max-width: 800px) {
 	.logo { height: 5em; margin-top: 10em; width: 5em; }
-	.t_show:target { bottom: 10em; }
+	.t_show { bottom: 10em; }
 	.heading { font-size: 4em; }
 	.error-head{ font-size: 2.5em; }
 	.text { font-size: 1em; padding-left: 0; padding-right: 0; max-width: 100%; }
@@ -183,7 +185,7 @@
 	.context { max-width: 28em; }
 }
 @media screen and (max-width: 600px) {
-	.t_show:target { bottom: 11em; }
+	.t_show { bottom: 11em; }
 	.logo { height: 5em; margin-top: 10em; width: 5em; }
 	.hgroup { display: grid; grid-template-areas: "svg sublevel" "svg region"; grid-template-columns: 30% 70%; }
 	.heading { font-size: 2.5em; }
